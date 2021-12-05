@@ -1,0 +1,38 @@
+.app{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 120%;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;    
+}
+
+.navbar{
+  display: flex;
+  align-self: stretch;
+  justify-content: space-around;
+  min-height: 8vh;
+  background-color: #7c7c7c6b;
+}
+.navlinks{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.navlinks li{
+  list-style: none;
+}
+.navlinks a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 40px;
+}
